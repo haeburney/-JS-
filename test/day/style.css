@@ -1,0 +1,36 @@
+body {
+    font-family: 'ghanachoco';
+    background-image: url("christmas.avif");
+    background-size : cover;
+    text-align: center;
+}
+
+#christmas {
+    padding-top: 120px;
+}
+
+#clock {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    font-size: 50px;
+}
+
+#lyric{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+}
+
+#lyric_small{
+    background-color: rgba( 255, 255, 255, 0.5 );
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: 'ghanachoco';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
