@@ -1,0 +1,44 @@
+.hidden{
+    display: none;
+}
+
+body {
+    font-family: 'HancomUljuBangudae';
+    background-image: url("game.jpg");
+    background-size: cover;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+input {
+    font-family: 'HancomUljuBangudae';
+}
+
+@font-face {
+    font-family: 'HancomUljuBangudae';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205-2@1.0/HancomUljuBangudae.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#max{
+    width : 150px;
+    height : 25px;
+}
+
+#input1{
+    width : 100px;
+    height : 20px;
+}
+
+#warning{
+    color:blueviolet;
+}
+
+#guess{
+    font-size: 20px;
+}
+
+#answer, #win_or_lose{
+    font-size: 20px;
+}
