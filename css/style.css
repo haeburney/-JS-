@@ -1,0 +1,97 @@
+.hidden{
+    display: none;
+}
+
+.bgImg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+body {
+    font-family: 'EarlyFontDiary';
+    color: whitesmoke;
+}
+
+#weather{
+    font-weight: bolder;
+    text-align: right;
+    padding-right: 15px;
+}
+
+#clock{
+    text-align: right;
+    padding-right: 15px;
+}
+
+#login-form{
+    text-align: center;
+}
+
+#input1{
+    background-color: rgba(233, 236, 239, 0.2);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid #323232;
+    width:280px;
+    height:38px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #212529;
+}
+
+#input2{
+    font-size: 25px;
+    background-color: rgba(33, 37, 41, 0.7);
+    border: whitesmoke;
+    color:white;
+    height:40px;
+    font-family: 'EarlyFontDiary';
+}
+
+input::placeholder{
+    color: #212529;
+    font-family: 'EarlyFontDiary';
+}
+
+input:focus {outline: none;}
+
+#greeting{
+    text-align: center;
+}
+
+#todo-form, #todo-list{
+    text-align: center;
+    align-items: center;;
+}
+
+#todo-form{
+    padding-top: 50px;;
+}
+
+#todo-input{
+    background-color: rgba(233, 236, 239, 0.2);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid #323232;
+    width:500px;
+    font-size:20px;
+}
+
+
+#quote{
+    text-align: center;
+
+}
+
+@font-face {
+    font-family: 'EarlyFontDiary';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
