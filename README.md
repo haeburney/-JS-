@@ -23,5 +23,10 @@ https://bokki.org/create/javascript-%EB%9E%9C%EB%8D%A4%EC%9C%BC%EB%A1%9C-%EB%B0%
 <img src="https://user-images.githubusercontent.com/76997276/172993225-022bdbb0-f5a3-4645-a6ce-7c3411e8edd7.png" width=700><br><br>
 
 input form 투명하게 하는 방법<br>
-background-color: transparent;<br>
+background-color: transparent;<br><br><br><br><br><br>
 
+
+## 완성
+![image](https://user-images.githubusercontent.com/76997276/180682276-9d167fa9-03de-47e7-89c5-bd1c4cce0ab0.png)
+![image](https://user-images.githubusercontent.com/76997276/180682315-0399cb52-2d3c-4898-88fd-dcd933c4c61e.png)
+![image](https://user-images.githubusercontent.com/76997276/180682361-099cea6b-8b64-457d-ad50-85208b4bd4b0.png)
